@@ -1,0 +1,16 @@
+
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+*.pyc
+
+# Dataset images and CSV files
+data/
+
+# Model weights can be large; keep them local for now
+models/*.pth
+
+# Keep class names JSON tracked
+!models/class_names.json
+
